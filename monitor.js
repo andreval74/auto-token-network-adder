@@ -20,4 +20,9 @@ provider.on("pending", async (tx) => {
   }
 });
 
+// Adicionando uma rota básica
+app.get("/", (req, res) => {
+  res.send("Servidor está rodando e monitorando as transações.");
+});
+
 app.listen(3000, () => console.log("Servidor rodando na porta 3000"));
