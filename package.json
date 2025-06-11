@@ -1,10 +1,10 @@
 {
   "name": "auto-token-network-adder",
   "version": "1.0.0",
-  "description": "Projeto para monitorar automaticamente tokens e redes no MetaMask.",
-  "main": "monitor.js",
+  "description": "Automatizar adição de tokens e redes no MetaMask.",
+  "main": "server.js",
   "scripts": {
-    "start": "node monitor.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "ethers": "^5.0.0",
